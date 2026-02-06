@@ -13,8 +13,7 @@ if (!PUBLISHABLE_KEY) {
 
 createRoot(document.getElementById('root')).render(
    <ClerkProvider publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
-  <BrowserRouter basename="/Hotel-Booking"
-   >
+  <BrowserRouter>
     <App />
   </BrowserRouter>
   </ClerkProvider>
