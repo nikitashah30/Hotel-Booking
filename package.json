@@ -1,6 +1,7 @@
 {
   "name": "hotel-booking",
-  
+  "homepage": "https://nikitashah30.github.io/Hotel-Booking/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +10,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+ 
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.59.3",
